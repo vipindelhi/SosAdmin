@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sos112?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">vipin123</property>
+    <mapping resource="com/sos/model/sos112/Callrecords.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Extraimagetwo.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/User.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Profilepicture.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Editimageone.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Sosresponse.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Feedback.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Lastlogin.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/ContinuousLocation.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Imeinumber.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Otpcode.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Countsospostuserview.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Editimagetwo.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Extraimageone.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Firstpost.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Sospostfinal.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Sensetstatus.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/GroupHasUser.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/VideoFile.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Audiorecords.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Activeuser.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Extraimagethree.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/GeolocationConvertAddress.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Sospost.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Sessionkey.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Sosperson.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Editimagethree.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Userdetails.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Gcmid.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Editimagefour.hbm.xml"/>
+    <mapping resource="com/sos/model/sos112/Soscontact.hbm.xml"/>
+    
+  </session-factory>
+</hibernate-configuration>

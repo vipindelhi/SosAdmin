@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sosadmin?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">vipin123</property>
+    <mapping resource="com/sos/model/sosadmin/Callrecords.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Activeuser.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/ContinuousLocation.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Extraimageone.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Editimagethree.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/GroupHasUser.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Audiorecords.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Lastlogin.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Firstpost.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Sospost.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/VideoFile.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/GeolocationConvertAddress.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Sessionkey.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Sensetstatus.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Sosresponse.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Editimagefour.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Otpcode.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Sosperson.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Imeinumber.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Countsospostuserview.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Editimageone.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Extraimagetwo.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Extraimagethree.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Soscontact.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Sospostfinal.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Editimagetwo.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Feedback.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Gcmid.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/User.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Userdetails.hbm.xml"/>
+    <mapping resource="com/sos/model/sosadmin/Profilepicture.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

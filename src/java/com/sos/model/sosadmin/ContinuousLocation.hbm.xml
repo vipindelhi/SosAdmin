@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 7:01:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sosadmin.ContinuousLocation" table="continuous_location" catalog="sos112" optimistic-lock="version">
+        <id name="id" type="string">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="userId" type="string">
+            <column name="userId" not-null="true" />
+        </property>
+        <property name="latitude" type="double">
+            <column name="latitude" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="longitude" type="double">
+            <column name="longitude" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="date" type="string">
+            <column name="date" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

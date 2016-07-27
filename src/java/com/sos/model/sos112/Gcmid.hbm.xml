@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 10:02:42 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sos112.Gcmid" table="gcmid" catalog="sos112">
+        <id name="id" type="string">
+            <column name="id" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="gcm" type="string">
+            <column name="gcm" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

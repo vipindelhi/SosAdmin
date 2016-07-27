@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 10:02:42 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sos112.Sensetstatus" table="sensetstatus" catalog="sos112">
+        <id name="userId" type="string">
+            <column name="userId" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="video" type="string">
+            <column name="video" length="10" not-null="true" />
+        </property>
+        <property name="sms" type="string">
+            <column name="sms" not-null="true" />
+        </property>
+        <property name="sosIcon" type="string">
+            <column name="sosIcon" length="10" not-null="true" />
+        </property>
+        <property name="powerButton" type="string">
+            <column name="powerButton" length="10" not-null="true" />
+        </property>
+        <property name="fallSenser" type="string">
+            <column name="fallSenser" length="10" />
+        </property>
+        <property name="shakeToPost" type="string">
+            <column name="shakeToPost" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

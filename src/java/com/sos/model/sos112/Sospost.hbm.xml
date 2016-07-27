@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 10:02:42 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sos112.Sospost" table="sospost" catalog="sos112">
+        <id name="postId" type="string">
+            <column name="postId" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="userId" type="string">
+            <column name="userId" not-null="true" />
+        </property>
+        <property name="userName" type="string">
+            <column name="userName" not-null="true" />
+        </property>
+        <property name="latitude" type="string">
+            <column name="latitude" length="122" not-null="true" />
+        </property>
+        <property name="longitude" type="string">
+            <column name="longitude" length="122" not-null="true" />
+        </property>
+        <property name="insertDate" type="string">
+            <column name="insertDate" length="50" not-null="true" />
+        </property>
+        <property name="insertTime" type="string">
+            <column name="insertTime" length="50" not-null="true" />
+        </property>
+        <property name="lastLatitude" type="string">
+            <column name="LastLatitude" length="200" not-null="true" />
+        </property>
+        <property name="lastLongitude" type="string">
+            <column name="LastLongitude" length="200" not-null="true" />
+        </property>
+        <property name="witness" type="string">
+            <column name="witness" length="200" not-null="true" />
+        </property>
+        <property name="helpType" type="string">
+            <column name="helpType" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

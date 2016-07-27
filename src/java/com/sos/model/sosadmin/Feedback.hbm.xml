@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 7:01:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sosadmin.Feedback" table="feedback" catalog="sos112" optimistic-lock="version">
+        <id name="userId" type="string">
+            <column name="userId" />
+            <generator class="assigned" />
+        </id>
+        <property name="rate" type="string">
+            <column name="rate" not-null="true" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" not-null="true" />
+        </property>
+        <property name="details" type="string">
+            <column name="details" length="1000" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

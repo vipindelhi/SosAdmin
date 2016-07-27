@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 7:01:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sosadmin.GroupHasUser" table="group_has_user" catalog="sos112" optimistic-lock="version">
+        <id name="id" type="string">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="groupid" type="string">
+            <column name="GROUPID" />
+        </property>
+        <property name="userid" type="string">
+            <column name="USERID" />
+        </property>
+    </class>
+</hibernate-mapping>

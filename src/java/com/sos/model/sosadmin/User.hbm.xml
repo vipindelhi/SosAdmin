@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 7:01:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sosadmin.User" table="user" catalog="sos112" optimistic-lock="version">
+        <id name="mobileNumber" type="string">
+            <column name="MobileNumber" length="50" />
+            <generator class="assigned" />
+        </id>
+        <property name="username" type="string">
+            <column name="USERNAME" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" not-null="true" />
+        </property>
+        <property name="firstname" type="string">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="LASTNAME" />
+        </property>
+        <property name="activeSince" type="timestamp">
+            <column name="ACTIVE_SINCE" length="19" not-null="true" />
+        </property>
+        <property name="mobileCountryCode" type="int">
+            <column name="Mobile_Country_Code" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

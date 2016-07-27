@@ -1,0 +1,137 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400+700);
+body {
+  background: #fff;
+  font-family: Roboto;
+}
+
+#chart {
+    width: 100%;
+    height: 300px;
+    margin: 50px auto 0;
+    display: block;
+}
+
+#chart #numbers {
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+#chart #numbers li {
+    text-align: left;
+    padding-right: 1em;
+    list-style: none;
+    height: 16.65%;
+    position: relative;
+    bottom: 30px;
+}
+
+#chart #numbers li span {
+    color: #6c7b88; width:100%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+#chart #bars {
+    display: inline-block;
+    
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#chart #bars li .bar {
+    display: block;
+    width: 80%;
+    margin: 0 10%;
+    /*background: #49E;*/
+    position: absolute;
+    bottom: 0;
+}
+
+#chart #bars li {
+    display: table-cell;
+    width: 100px;
+    height: 400px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+#chart #bars li span {
+   /* color: #6c7b88;*/
+    width: 100%;
+    position: absolute;
+    top: -2em; font-weight:100;
+    left: 0; font-size:11px;
+    text-align: center;
+	
+}
+
+#chart #bars li:first-child .bar{ background:#406a9c;}
+#chart #bars li:first-child  span{color:#406a9c;}
+
+#chart #bars li:nth-child(2) .bar{background:#9f413f;}
+#chart #bars li:nth-child(2) span{color:#9f413f;}
+
+#chart #bars li:nth-child(3) .bar{background:#7f9a49;}
+#chart #bars li:nth-child(3) span{color:#7f9a49;}
+
+#chart #bars li:nth-child(4) .bar{background:#ca7b39;}
+#chart #bars li:nth-child(4) span{color:#ca7b39;}
+
+#chart #bars li:nth-child(5) .bar{background:#695185;}
+#chart #bars li:nth-child(5) span{color:#695185;}
+
+#chart #bars li:nth-child(6) .bar{background:#9da550;}
+#chart #bars li:nth-child(6) span{color:#9da550;}
+
+#chart #bars li:nth-child(7) .bar{background:#938e54;}
+#chart #bars li:nth-child(7) span{color:#938e54;}
+
+#chart #bars li:nth-child(8) .bar{background:#9c6495;}
+#chart #bars li:nth-child(8) span{color:#9c6495;}
+
+#chart #bars li:nth-child(9) .bar{background:#509381;}
+#chart #bars li:nth-child(9) span{ color:#509381;}
+
+#chart #bars li:last-child .bar{background:#686868;}
+#chart #bars li:last-child span{ color:#686868;}
+
+   
+.bottomsection{ width:100%; margin:20px 0 0 0px; padding:0px; float:left; text-align:center;}
+.bottomsection ul{ list-style:none; margin:0px; padding:0px;}
+.bottomsection ul li{ display:inline-block; color:#6c7b88;}
+.bottomsection ul li:first-child{ position:relative; padding:0 25px;}
+.bottomsection ul li span{ width:20px; height:20px; border:3px solid #eac119; border-radius:20px; display:block; position:absolute; bottom:-8px;}
+/*.bottomsection ul li span:before{ content:''; position:absolute; width:24px; height:4px; border-bottom:2px dashed #eac119; left:-30px; bottom:6px}
+.bottomsection ul li span:after{content:''; position:absolute; width:24px; height:4px; border-bottom:2px dashed #eac119; right:-24px; bottom:6px;}*/
+
+span.barbox{ width:25px !important; height:25px; border-radius:20px; background:#fff; border:1px solid #eac119; position:absolute !important; display:block; margin:auto;line-height: 25px;
+text-align: center !important; right:0px; bottom:0px; top:inherit !important;}
+
+span.bartext{ color:#fff !important;width:100% !important; height:auto; border-radius:20px; background:transparent; border:none; position:absolute !important; display:block; margin:auto;line-height: 25px;text-align: center !important; right:0px; bottom:30px; top:inherit !important; font-size:13px !important;}
+
+.responsebtn{ width: 100%;
+background: #eac119;
+color: #fff;
+text-decoration: none;
+outline: none;
+line-height: 34px;
+display: block;
+text-align: center;
+font-size: 13px;
+border-radius: 20px;}
+.responsebtn:hover{text-decoration: none;
+outline: none;}
+
+
+div.boxbar{ width:100% !important; height:auto;  position:absolute !important; display:block; margin:auto; 
+ right:0px; bottom:0px; top:inherit !important;}
+

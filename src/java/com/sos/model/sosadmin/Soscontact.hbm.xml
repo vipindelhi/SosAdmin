@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2016 7:01:09 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.model.sosadmin.Soscontact" table="soscontact" catalog="sos112" optimistic-lock="version">
+        <id name="userId" type="string">
+            <column name="userId" />
+            <generator class="assigned" />
+        </id>
+        <property name="sosContactOne" type="string">
+            <column name="sosContactOne" not-null="true" />
+        </property>
+        <property name="sosContactTwo" type="string">
+            <column name="sosContactTwo" not-null="true" />
+        </property>
+        <property name="sosContactThree" type="string">
+            <column name="sosContactThree" not-null="true" />
+        </property>
+        <property name="emergencyNumber" type="string">
+            <column name="emergencyNumber" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>
