@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="sosadmin"/>
+  <table-filter match-name="feedback"/>
+  <table-filter match-name="sessionkey"/>
+  <table-filter match-name="adminsosresponse"/>
+  <table-filter match-name="editimagefour"/>
+  <table-filter match-name="extraimageone"/>
+  <table-filter match-name="user"/>
+  <table-filter match-name="userdetails"/>
+  <table-filter match-name="gcmid"/>
+  <table-filter match-name="profilepicture"/>
+  <table-filter match-name="editimageone"/>
+  <table-filter match-name="sospostfinal"/>
+  <table-filter match-name="editimagethree"/>
+  <table-filter match-name="audiorecords"/>
+  <table-filter match-name="group_has_user"/>
+  <table-filter match-name="geolocation_convert_address"/>
+  <table-filter match-name="editimagetwo"/>
+  <table-filter match-name="continuous_location"/>
+  <table-filter match-name="otpcode"/>
+  <table-filter match-name="firstpost"/>
+  <table-filter match-name="extraimagethree"/>
+  <table-filter match-name="lastlogin"/>
+  <table-filter match-name="extraimagetwo"/>
+  <table-filter match-name="adminsosaction"/>
+  <table-filter match-name="sosresponse"/>
+  <table-filter match-name="sensetstatus"/>
+  <table-filter match-name="video_file"/>
+  <table-filter match-name="sosperson"/>
+  <table-filter match-name="soscontact"/>
+  <table-filter match-name="callrecords"/>
+  <table-filter match-name="activeuser"/>
+  <table-filter match-name="company"/>
+  <table-filter match-name="countsospostuserview"/>
+  <table-filter match-name="sospost"/>
+  <table-filter match-name="imeinumber"/>
+  <table-filter match-name="companyaddress"/>
+</hibernate-reverse-engineering>

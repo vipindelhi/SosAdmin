@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.Companyaddress" table="companyaddress" catalog="sosadmin" optimistic-lock="version">
+        <id name="companyId" type="string">
+            <column name="companyId" />
+            <generator class="assigned" />
+        </id>
+        <property name="landMark" type="string">
+            <column name="landMark" not-null="true" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" not-null="true" />
+        </property>
+        <property name="district" type="string">
+            <column name="district" not-null="true" />
+        </property>
+        <property name="state" type="string">
+            <column name="state" not-null="true" />
+        </property>
+        <property name="country" type="string">
+            <column name="country" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: vipin -->
+ 
+<struts>
+    <!-- Add your configuration elements here -->
+     <package name="com.sos.admin.companyLogin" extends="struts-default">
+         <action name="adminLogin" class="com.sos.admin.companyLogin.CompnayLoginAction">
+                 <result name="SUCCESS">/WEB-INF/home/home.jsp</result>
+              <result name="Input">/WEB-INF//Login/login.jsp</result>  
+             <result name="Error">/Login/login.jsp</result>             
+         </action>
+    </package>
+</struts>

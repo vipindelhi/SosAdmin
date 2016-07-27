@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.Adminsosresponse" table="adminsosresponse" catalog="sosadmin" optimistic-lock="version">
+        <id name="sosPostId" type="string">
+            <column name="sosPostId" />
+            <generator class="assigned" />
+        </id>
+        <property name="companyId" type="string">
+            <column name="companyId" not-null="true" />
+        </property>
+        <property name="sosName" type="string">
+            <column name="sosName" not-null="true" />
+        </property>
+        <property name="sosDateTime" type="string">
+            <column name="sosDateTime" not-null="true" />
+        </property>
+        <property name="compnayResonseDateTime" type="string">
+            <column name="compnayResonseDateTime" not-null="true" />
+        </property>
+        <property name="fiveMinute" type="string">
+            <column name="fiveMinute" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

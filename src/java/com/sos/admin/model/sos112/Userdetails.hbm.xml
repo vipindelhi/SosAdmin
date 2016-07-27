@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.Userdetails" table="userdetails" catalog="sosadmin" optimistic-lock="version">
+        <id name="userId" type="string">
+            <column name="userId" />
+            <generator class="assigned" />
+        </id>
+        <property name="gender" type="string">
+            <column name="gender" length="10" not-null="true" />
+        </property>
+        <property name="dateOfBirth" type="string">
+            <column name="dateOfBirth" not-null="true" />
+        </property>
+        <property name="profession" type="string">
+            <column name="profession" not-null="true" />
+        </property>
+        <property name="bloodGroup" type="string">
+            <column name="bloodGroup" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

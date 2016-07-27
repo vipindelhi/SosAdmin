@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.Sosperson" table="sosperson" catalog="sosadmin" optimistic-lock="version">
+        <id name="personId" type="string">
+            <column name="personId" />
+            <generator class="assigned" />
+        </id>
+        <property name="postId" type="string">
+            <column name="postId" />
+        </property>
+    </class>
+</hibernate-mapping>

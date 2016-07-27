@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.Sessionkey" table="sessionkey" catalog="sosadmin" optimistic-lock="version">
+        <id name="id" type="string">
+            <column name="Id" />
+            <generator class="assigned" />
+        </id>
+        <property name="mobile" type="string">
+            <column name="mobile" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

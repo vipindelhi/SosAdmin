@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.VideoFile" table="video_file" catalog="sosadmin" optimistic-lock="version">
+        <id name="postId" type="string">
+            <column name="postId" />
+            <generator class="assigned" />
+        </id>
+        <property name="videoFileName" type="string">
+            <column name="videoFileName" not-null="true" />
+        </property>
+        <property name="file" type="binary">
+            <column name="file" not-null="true" />
+        </property>
+        <property name="filePath" type="string">
+            <column name="filePath" not-null="true" />
+        </property>
+        <property name="date" type="string">
+            <column name="date" not-null="true" />
+        </property>
+        <property name="time" type="string">
+            <column name="time" not-null="true" />
+        </property>
+        <property name="fileType" type="string">
+            <column name="fileType" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

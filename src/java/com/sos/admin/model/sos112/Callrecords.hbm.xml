@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2016 7:43:30 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sos.admin.model.sos112.Callrecords" table="callrecords" catalog="sosadmin" optimistic-lock="version">
+        <id name="callTime" type="string">
+            <column name="callTime" />
+            <generator class="assigned" />
+        </id>
+        <property name="postId" type="string">
+            <column name="postId" not-null="true" />
+        </property>
+        <property name="number" type="string">
+            <column name="number" not-null="true" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

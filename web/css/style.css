@@ -1,0 +1,116 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,cyrillic,latin-ext);
+
+span.scrollicon{display:block;
+background:#d54643;
+color:#fff;
+width:30px;
+height:30px;
+padding:5px;
+border-radius:30px;}
+
+div.nicescroll-rails div{ background:#d54643 !important;}
+
+label.error{ color:#f00; display:none;}
+.form-group.error input{ border:1px solid #f00 !important;}
+.login .content .forget-password{ color:#f2f2f2;}
+
+/*-------------------*/
+
+.monitorpopup{ cursor: move; width:1200px !important; position: absolute; z-index: 99999;
+    left: 0; top: 0px; right: 0; box-shadow: 2px 1px 10px #888; margin: auto;}
+.monitorpopup_left1{ cursor: move; width:600px !important; position: absolute; z-index: 99999;
+    left: 10%; top: 0px; box-shadow: 2px 1px 10px #888; margin: auto;}
+.monitorpopup_left{ cursor: move; width:1200px !important; position: absolute; z-index: 99999;
+    left: 10%; top: 0px; box-shadow: 2px 1px 10px #888; margin: auto;}
+.monitorpopup_right{ cursor: move; width:1200px !important; position: absolute; z-index: 99999;
+    top: 0px; right: 10%; box-shadow: 2px 1px 10px #888; margin: auto;}
+
+.monitor_inner{ width: 100%; margin: 0px; padding: 0px; float: left; position: relative;}
+.monitor_inner ul{ list-style: none; margin: 0px; padding: 0px;}
+.monitor_inner ul li{ display: inline-block; margin-right: 30px; }
+
+.monitor_inner ul li span.zoom{width: 30px;
+height: 30px;
+padding: 5px 6px;
+background: #32c5d2;
+color: #fff;
+margin: 0;
+border-radius: 30px;
+font-size: 13px;
+cursor: pointer;}
+
+.cpopup{ display: none;}
+.sbt{display: none;}
+.crossbtn{ width: 30px; height: 30px;position: absolute; background: #f00;color: #fff; border-radius: 30px;
+padding: 5px; text-align: center; right: -14px;top: -14px; z-index: 999999; cursor: pointer;}
+
+.sepbtn{ font-size: 14px;
+color: #fff;
+margin: 0 0 0 30px;
+background: #32c5d2;
+padding: 4px 20px;
+border-radius: 20px;
+text-decoration: none;
+outline: none !important;
+line-height: normal;
+text-transform: uppercase;}
+.sepbtn:hover{text-decoration: none; outline: none !important;}
+
+.cpopup1{ display: none;}
+.sbt1{display: none;}
+
+.cpopup2{ display: none;}
+.sbt2{display: none;}
+
+.cpopup3{ display: none;}
+.sbt3{display: none;}
+
+.loginbox .table .table{ background: none;}
+.loginbox .table > tbody > tr > td{border: none; padding: 8px 0;}
+.forget{ color: #fff; float: right;}
+
+.welcomepage{background: url('../img/welbg.jpg') no-repeat center center !important;
+width: 100%;
+float: left;
+margin: 0px;
+padding: 0px;
+height: 665px;
+}
+
+.welogo{ width: 100%; margin:15px 0px; padding: 0px;}
+.welogo img{ max-width: 100px; float: left;}
+
+.welcomebox{ width: 100%; margin: 0px; padding: 0px;}
+.welcomebox_left{ width: 100%; margin: 0px; padding: 0px; float: left; color: #f2f2f2;}
+.welcomebox_left h1{ margin: 25px 0;
+padding: 0px;
+font-weight: 400;
+font-size: 40px;}
+.welcomebox_left p{ margin: 0px; padding: 0px; line-height: 22px;}
+.welcomebox_left ul{ list-style-position: inside; margin: 20px 0;}
+.welcomebox_left ul li{ margin: 5px 0;}
+
+.welcomebox_right{width: 100%; margin: 0px; padding: 0px; float: left; position: relative;}
+.welcomebox_img{ position: relative; width: 100%; margin: 0px; padding: 0px; z-index: 9;}
+.welcomebox_slider{     position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 37px auto;
+    max-width: 419px;
+}
+.welcomebox_slider .carousel-indicators{bottom: -17px;}
+.welcomebox_slider .carousel-indicators li{ width: 7px; height: 7px; margin: 0 1px;}
+.welcomebox_slider .carousel-indicators li.active{ width: 7px; height: 7px; margin: 0 1px; background: #db564c !important;
+border:1px solid #db564c;}
+.welcomebox_btn{ width: 100%; margin:15px 0 0 0px; padding: 0px; float: left;}
+.mqery{ height: 60px !important; background: #dde3ec; width: 100%; border: none; border-radius: 4px;
+padding: 10px}
+
+.mqery1{ height: 100px !important; background: #dde3ec; width: 100%; border: none; border-radius: 4px;
+padding: 10px}
+
+body.quoteform .content{ width: 100%;}
+
+.fontwt{font-weight: 400 !important;}
